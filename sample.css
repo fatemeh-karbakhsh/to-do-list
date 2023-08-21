@@ -1,0 +1,165 @@
+/* @font-face {
+    font-family: Vazirmatn;
+    src: url(./fonts/fonts/webfonts/Vazirmatn-Regular.woff2);
+} */
+body {
+    /* font-family: Vazirmatn; */
+    font-size: 16px;
+}
+
+input,
+select,
+button {
+    /* font-family: Vazirmatn; */
+    font-size: 12px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.content {
+    margin-top: 100px;
+    background-color: #f6f6f6;
+    width: 50%;
+    box-shadow: 0px 1px 6px 2px #d6d5d5;
+    padding-bottom: 23px;
+}
+
+.title {
+    margin-top: 30px;
+    color: rgb(26, 162, 216);
+    display: flex;
+    justify-content: center;
+}
+
+.container-add-product {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.add-product {
+    width: 90%;
+    margin-top: 30px;
+}
+.add-product input {
+    width: 100%;
+    padding: 14px 14px 14px 96px;
+}
+.add-product input:focus {
+    box-shadow: 0px 1px 6px 2px #d6d5d5;
+}
+
+.add-product-btn {
+    background-color: rgb(12, 131, 210);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 10px;
+    position: absolute;
+    left: 50px;
+    top: 36px;
+}
+
+#title-product {
+    outline: none;
+    border: none;
+    margin-left: 20px;
+}
+
+.icon {
+    color: rgb(12, 131, 210);
+    margin-right: 5px;
+}
+
+.parent-line {
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    border-bottom: 1.5px solid #d6d5d5;
+    width: 95%;
+    background-color: #d6d5d5;
+    display: flex;
+    justify-content: center;
+
+}
+
+.option {
+    margin-top: 23px;
+    display: flex;
+    justify-content: end;
+    margin-left: 60px;
+    margin-bottom: 50px;
+
+}
+
+.sort-products {
+    margin: 0 6px 0 9px;
+    color: #979797;
+}
+
+.filter-products {
+    margin: 0 6px 0 9px;
+    color: #979797;
+}
+
+#select-filter-products,
+#select-sort-products {
+    border: 1.5px solid #d1d1d1;
+    width: 100px;
+    border-radius: 3px;
+    outline: none;
+}
+
+#to-do-list {
+    line-height: 55px;
+    margin-left: 45px
+    
+}
+
+.item input {
+    margin-left: 5px;
+}
+
+#items {
+    cursor: pointer;
+}
+
+#to-do-list label {
+    cursor: pointer;
+    padding-right: 8px;
+    width: 660px;
+    display: inline-block;
+    position: relative;
+}
+
+#to-do-list .item:hover {
+    background-color: #ffffff;
+    border-radius: 5px;
+
+}
+
+.item {
+    margin-right: 20px;
+}
+
+.remove-icon:hover {
+    cursor: pointer;
+    color: rgb(15, 98, 149);
+}
+.items{
+    font-size: 20px;
+vertical-align: middle;
+}
