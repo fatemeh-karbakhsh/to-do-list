@@ -31,7 +31,7 @@ const renderProducts = (product) =>{
         productItem.textContent = product.title
         parentElement.appendChild(productItem)
 
-        removeIcon.textContent = product.icon
+        removeIcon.textContent = 'remove'
         parentElement.appendChild(removeIcon)
 
         return parentElement
